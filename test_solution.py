@@ -1,7 +1,10 @@
 import json
 
-SUBMISSION_FILE = '1_example_submission.json'
-DATASET_FILE = 'datasets/1_example.json'
+# SUBMISSION_FILE = 'output/1_submission.json'
+# DATASET_FILE = 'datasets/1_example.json'
+
+SUBMISSION_FILE = 'output/2_submission.json'
+DATASET_FILE = 'datasets/2_pacman.json'
 
 import json
 import math

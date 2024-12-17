@@ -1,0 +1,30 @@
+data = {
+        "comment": "Simple layout with 7 nodes in a hexagonal pattern",
+        "batteryCapacity": 70,
+        "numDays": 2,
+        "intersections": [
+            {"id": 0, "lat": 5.0, "lng": -8.66},
+            {"id": 1, "lat": 10.0, "lng": 0.0},
+            {"id": 2, "lat": 5.0, "lng": 8.66},
+            {"id": 3, "lat": -5.0, "lng": 8.66},
+            {"id": 4, "lat": -10.0, "lng": 0.0},
+            {"id": 5, "lat": -5.0, "lng": -8.66},
+            {"id": 6, "lat": 0.0, "lng": 0.0}
+        ],
+        "roads": [
+            {"intersectionId1": 0, "intersectionId2": 1, "isOneWay": False, "length": 10},
+            {"intersectionId1": 0, "intersectionId2": 6, "isOneWay": True, "length": 10},
+            {"intersectionId1": 0, "intersectionId2": 5, "isOneWay": False, "length": 10},
+            {"intersectionId1": 1, "intersectionId2": 6, "isOneWay": False, "length": 10},
+            {"intersectionId1": 1, "intersectionId2": 2, "isOneWay": False, "length": 10},
+            {"intersectionId1": 6, "intersectionId2": 2, "isOneWay": True, "length": 10},
+            {"intersectionId1": 2, "intersectionId2": 3, "isOneWay": False, "length": 10},
+            {"intersectionId1": 3, "intersectionId2": 6, "isOneWay": False, "length": 10},
+            {"intersectionId1": 3, "intersectionId2": 4, "isOneWay": False, "length": 10},
+            {"intersectionId1": 4, "intersectionId2": 6, "isOneWay": False, "length": 10},
+            {"intersectionId1": 4, "intersectionId2": 5, "isOneWay": False, "length": 10},
+            {"intersectionId1": 5, "intersectionId2": 6, "isOneWay": False, "length": 10}
+        ]
+    }
+
+
