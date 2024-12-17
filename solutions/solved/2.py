@@ -61,6 +61,9 @@ def traverse_all_edges(graph, start, total_edges, battery_capacity, recharge):
             edge = (min(current_node, next_node), max(current_node, next_node))
             print("Current node:", current_node, "Next node:", next_node, "Edge:", edge)
 
+            if path[len(path) - 2] == next_node:
+                continue
+
             edges = graph[current_node]
             is_last_edge = i == len(edges) - 1
 
